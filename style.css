@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(a4.jpg);
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    
+
+}
+.menu-bar{
+    background:rgba(0,100,0);
+    text-align: center;
+    
+}
+.menu-bar ul{
+display: inline-flex;
+list-style-type: none;
+color: wheat;
+
+}
+.menu-bar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
